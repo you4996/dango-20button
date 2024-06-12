@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+#buttonsContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 600px;
+}
+
+.rotateButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 24px;
+}
